@@ -1,0 +1,212 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-image: url("/images/wallpaperbetter.com_1366x768.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  border-radius: 16px;
+}
+
+#f0 {
+  text-align: left;
+  overflow: hidden;
+}
+
+#f0 img {
+  max-width: 50%;
+  transition: transform 0.6s ease;
+  margin-top: 15%;
+}
+
+#f0:hover {
+  transform: scale(2.1);
+}
+
+#f1 {
+  text-align: left;
+  padding: 0;
+  margin: 0;
+}
+
+#f1 img {
+  max-width: 50%;
+  border-radius: 30px;
+}
+
+#f2 {
+  text-align: left;
+}
+
+#f2 img {
+  transition: transform 0.8s ease;
+  max-width: 30%;
+}
+
+#f2:hover {
+  transform: scale(1.1);
+}
+
+#f5 {
+  border: 5px solid greenyellow;
+  box-shadow: 0 0 10px white;
+  transition: border-color 0.6s ease, box-shadow 0.6s ease;
+}
+
+#f5 img:hover {
+  border-color: yellow;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.7);
+}
+
+#B0 {
+  margin-top: -10%;
+  padding-bottom: 30px;
+}
+
+#b2 video {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  margin-top: -190px;
+  border-radius: 16px;
+}
+
+@media (min-width: 1023px) {
+  #b3 {
+    position: relative;
+    margin-top: -20%;
+    margin-left: 55%;
+  }
+}
+@media (max-width: 412px) {
+  #d2 {
+    position: relative;
+    margin-left: -65px;
+  }
+  #b1 {
+    margin-left: -80px;
+  }
+  #c0 img {
+    margin-left: -110px;
+  }
+  .car img {
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+  }
+  .slick-slide {
+    text-align: center;
+  }
+}
+#c0 {
+  text-align: center;
+  background-color: black;
+  border-radius: 40px;
+  padding-left: 10%;
+  padding-bottom: 30px;
+}
+
+.car {
+  width: 60%;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.slick-slide {
+  text-align: center;
+}
+
+#d1 {
+  text-align: center;
+  background-image: url("/images/a.jpg");
+  border-radius: 30px;
+}
+
+#faq {
+  padding: 40px 0;
+}
+
+#faq h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.accordion-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #fff;
+  background-color: #0056b3;
+}
+
+.accordion-body {
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+#contact {
+  padding: 40px 0;
+  text-align: center;
+}
+
+#contact h2 {
+  margin-bottom: 20px;
+}
+
+#contactForm {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.form-control {
+  border-radius: 4px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: greenyellow;
+}
+
+#f7 {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+  text-align: center;
+}
+
+#f7 .btn {
+  background-color: aqua;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+#f7 .btn:hover {
+  background-color: greenyellow;
+}
