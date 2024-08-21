@@ -99,26 +99,45 @@ header {
 
   }
 }
-
-@media (max-width: 412px) {
+@media (min-width: 769px) and (max-width: 1023px) {
+ #b3{
+  margin-top: -15%;
+ }
+}
+@media (max-width: 767px) {
+ 
   #d2 {
-    position: relative;
-    margin-left: -65px;
+   width: 100%;
 
+  }
+  #d2 img{
+    width: 100%;
+    height: auto;
   }
   #b1{
-    margin-left: -80px;
+   width: 100%;
+   margin-bottom: 13%;
+  }
+  #b1 img{
+    width: 100%;
+    height: auto;
+  
   }
 
-  #c0 img {
-    margin-left: -110px;
-    max-width: 60%;
+  #c0  {
+   
+    max-width: 100%;
+  }
+  #c0 img{
+    width: 30%;
+    height: auto;
   }
 
   .car img {
     width: 100%;
     margin: 0 auto;
     background-color: white;
+    height: auto;
   }
   #c2 img{
     height: auto;
@@ -196,7 +215,7 @@ header {
 }
 
 #contactForm {
-  max-width: 600px;
+  max-width: 100%;
   margin: 0 auto;
 }
 
