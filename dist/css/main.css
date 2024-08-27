@@ -8,227 +8,181 @@ header {
   background-image: url("/images/wallpaperbetter.com_1366x768.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
-  width: 100%;
+  background-position: center center;
+  text-align: left;
+  padding: 4%;
+}
+
+.A video {
+  padding-top: 2%;
+  width: 50%;
+  height: auto;
+  border-radius: 5%;
+}
+
+.assistir-btn {
+  width: 25%;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
   border-radius: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s;
 }
 
-#f0 {
-  text-align: left;
-  overflow: hidden;
+.assistir-btn:hover {
+  background-color: chartreuse;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
 }
 
-#f0 img {
-  max-width: 50%;
-  transition: transform 0.6s ease;
-  margin-top: 15%;
+.assistir-btn:focus {
+  outline: none;
 }
 
-#f0:hover {
-  transform: scale(2.1);
+.A1 {
+  text-align: center;
 }
 
-#f1 {
-  text-align: left;
-  padding: 0;
-  margin: 0;
-}
-
-#f1 img {
-  max-width: 50%;
-  border-radius: 30px;
-}
-
-#f2 {
-  text-align: left;
-}
-
-#f2 img {
-  transition: transform 0.8s ease;
-  max-width: 30%;
-}
-
-#f2:hover {
-  transform: scale(1.1);
-}
-
-#f5 {
-  border: 5px solid greenyellow;
-  box-shadow: 0 0 10px white;
-  transition: border-color 0.6s ease, box-shadow 0.6s ease;
-}
-
-#f5 img:hover {
-  border-color: yellow;
-  box-shadow: 0 0 20px rgba(255, 255, 255, 0.7);
-}
-
-#B0 {
-  margin-top: -10%;
-  padding-bottom: 30px;
-}
-
-#b2 video {
+.A1 img {
   width: 100%;
   height: auto;
-  text-align: center;
-  margin-top: -190px;
-  border-radius: 16px;
+  border-radius: 20px;
 }
 
-@media (min-width: 1023px) {
-  #b3 {
-    position: relative;
-    margin-top: -20%;
-    margin-left: 55%;
-  }
-}
-@media (min-width: 769px) and (max-width: 1023px) {
-  #b3 {
-    margin-top: -15%;
-  }
-}
-@media (max-width: 767px) {
-  #d2 {
-    width: 100%;
-  }
-  #d2 img {
-    width: 100%;
-    height: auto;
-  }
-  #b1 {
-    width: 100%;
-    margin-bottom: 13%;
-  }
-  #b1 img {
-    width: 100%;
-    height: auto;
-  }
-  #c0 {
-    max-width: 100%;
-  }
-  #c0 img {
-    width: 30%;
-    height: auto;
-  }
-  .car img {
-    width: 100%;
-    margin: 0 auto;
-    background-color: white;
-    height: auto;
-  }
-  #c2 img {
-    height: auto;
-    width: auto;
-  }
-  .slick-slide {
-    text-align: center;
-  }
-}
-#c0 {
-  text-align: center;
-  background-color: black;
-  border-radius: 30px;
-  padding-left: 10%;
-  padding-bottom: 1px;
-}
-
-.car {
-  width: 60%;
-  margin: 0 auto;
-  background-color: white;
-}
-
-.slick-slide {
+.B {
   text-align: center;
 }
 
-#d1 {
+.Es {
+  width: 100%;
+  text-align: center;
+  padding-top: 2%;
+}
+
+.C {
   text-align: center;
   background-image: url("/images/a.jpg");
-  border-radius: 30px;
+  margin-top: 1%;
+}
+
+.car img {
+  max-width: 100%;
+  height: 200px;
+  display: block;
+  margin: 0 10px;
+  object-fit: contain;
+  border-radius: 10px;
+  text-align: center;
 }
 
 #faq {
-  padding: 40px 0;
+  margin: 40px 0;
 }
 
 #faq h2 {
-  text-align: center;
+  color: #007bff;
   margin-bottom: 20px;
 }
 
 .accordion-button {
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  border-radius: 4px;
-}
-
-.accordion-button:focus {
-  box-shadow: none;
+  color: #007bff;
+  background-color: #f8f9fa;
+  border: 1px solid #007bff;
 }
 
 .accordion-button:not(.collapsed) {
   color: #fff;
-  background-color: #0056b3;
+  background-color: #007bff;
 }
 
 .accordion-body {
-  background-color: #fff;
-  border: 1px solid #ddd;
+  background-color: #e9ecef;
 }
 
 #contact {
-  padding: 40px 0;
-  text-align: center;
+  margin: 40px 0;
 }
 
 #contact h2 {
+  color: #007bff;
   margin-bottom: 20px;
 }
 
-#contactForm {
-  max-width: 100%;
-  margin: 0 auto;
+.form-label {
+  color: #007bff;
 }
 
 .form-control {
-  border-radius: 4px;
+  border-color: #007bff;
 }
 
 .btn-primary {
   background-color: #007bff;
-  border: none;
-  border-radius: 4px;
-  padding: 10px 20px;
-  transition: background-color 0.3s ease;
+  border-color: #007bff;
 }
 
 .btn-primary:hover {
-  background-color: greenyellow;
+  background-color: #0056b3;
+  border-color: #0056b3;
 }
 
-#f7 {
-  position: fixed;
-  top: 20px;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 1000;
+.car1 img {
+  max-width: 100%;
+  height: 250px;
+  display: block;
+  margin: 0 10px;
+  object-fit: contain;
+  border-radius: 10px;
   text-align: center;
 }
 
-#f7 .btn {
-  background-color: aqua;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  font-size: 16px;
-  border-radius: 4px;
-  text-decoration: none;
-  transition: background-color 0.3s ease;
+.L1 {
+  font-size: 2.5rem;
+  color: #007BFF;
+  text-align: center;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding-top: 5%;
 }
 
-#f7 .btn:hover {
-  background-color: greenyellow;
+.l2 {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding-top: 5%;
+}
+
+.l3 {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: white;
+}
+
+@media (max-width: 576px) {
+  .A video {
+    width: 70%;
+  }
+  header img {
+    width: 30%;
+  }
+}
+@media (min-width: 577px) and (max-width: 991px) {
+  .A video {
+    width: 80%;
+  }
+}
+@media (min-width: 992px) {
+  .A video {
+    width: 50%;
+  }
 }
